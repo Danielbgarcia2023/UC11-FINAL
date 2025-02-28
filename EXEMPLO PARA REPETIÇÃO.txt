@@ -1,0 +1,6 @@
+para (inteiro cont = 0; cont <= 100; cont++)
+		{
+			//imprimir em tela somente os números impares
+			se (cont%2 == 1) {
+			escreva (cont, "\n") 
+		}
