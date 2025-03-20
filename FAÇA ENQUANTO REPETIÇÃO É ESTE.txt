@@ -1,0 +1,14 @@
+inteiro valor, cont = 0, soma = 0
+
+		enquanto(cont < 5)
+		{
+		  //escreva("Insira um valor para realizar a soma:")
+		  escreva("Insira o " , cont+1 + "º" , " valor realizar a soma:")
+		  leia(valor)
+		  soma = soma + valor
+		  cont = cont + 1
+		  //cont ++
+		}
+		
+		escreva("Você terminou de cadastrar os valores!")
+		escreva("A média dos valores inseridos é:" + soma/cont )
