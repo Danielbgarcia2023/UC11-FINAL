@@ -1,0 +1,14 @@
+inteiro numero, soma = 0
+caracter continuar = 'S'
+
+enquanto(continuar == 'S' ou continuar == 's')
+{
+escreva("Insira um número para somar. ")
+leia(numero)
+  soma = soma + numero
+  escreva("Deseja inserir mais números? S/N \n")
+  leia(continuar)
+  
+}
+
+escreva("A soma total dos números é: ", soma)
