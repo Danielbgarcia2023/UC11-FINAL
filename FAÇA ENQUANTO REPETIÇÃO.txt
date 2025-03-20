@@ -1,0 +1,14 @@
+inteiro numero, soma = 0, contador = 0
+	
+
+faca
+{
+escreva("Insira um número para somar. ")
+leia(numero)
+  soma = soma + numero
+  contador = contador +1
+  //contador ++
+  
+} enquanto (contador < 5)
+
+escreva("A soma total dos números é: ", soma)
